@@ -1,2 +1,0 @@
-Known bugs: 
--when less than 5 integers are typed in, program produces wrong result.
