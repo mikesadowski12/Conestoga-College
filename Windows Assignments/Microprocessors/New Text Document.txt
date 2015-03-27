@@ -1,0 +1,29 @@
+leds       equ         $E003    ;a bank of 8 Light Emitting Diodes (LEDs)
+
+  org $6000
+my_string1  dc.b  'abcdefg',0
+  org $7000
+my_string2  dc.b  'hijklmn',0
+
+  org $400
+main:
+
+  lea      my_string1,a0
+  lea      leds,a1
+  jsr      outputstring
+  lea      my_string2,a0
+  lea      leds,a1
+  jsr      outputstring
+
+  bra      main
+
+
+
+outputstring
+
+Again
+ MOVE.B (A0)+,D0       ;Get a character into D0
+ MOVE.B d0,(a1)        ;Move data into contents of a1(leds port)
+ CMP.B #0,D0           ;Checks to see if end of string
+ BNE Again             ;Repeat until zero found
+ rts

@@ -1,0 +1,254 @@
+\hypertarget{class_management}{\section{Management Class Reference}
+\label{class_management}\index{Management@{Management}}
+}
+
+
+{\bfseries Brief Description} -\/ Class representing the management/staff of a soccer team  
+
+
+
+
+{\ttfamily \#include $<$Management.\-h$>$}
+
+Inheritance diagram for Management\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_management}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_management_a257178d02f42de0901c3841449ff8bb1}{Management} (void)
+\begin{DoxyCompactList}\small\item\em {\bfseries Brief Description} -\/ Constructor \end{DoxyCompactList}\item 
+\hyperlink{class_management_a5e386c7700d6dcc0c1728be3a551b918}{$\sim$\-Management} (void)
+\begin{DoxyCompactList}\small\item\em {\bfseries Brief Description} -\/ Destructor \end{DoxyCompactList}\item 
+const string \hyperlink{class_management_ad2d09a9d74ff2e5fbea54efcd76577a0}{Get\-Team\-Name} (void)
+\begin{DoxyCompactList}\small\item\em {\bfseries Brief Description} -\/ Accessor \end{DoxyCompactList}\item 
+const string \hyperlink{class_management_a6c6b73df06dc1c04f24d1c5acf94cad4}{Get\-Head\-Coach} (void)
+\begin{DoxyCompactList}\small\item\em {\bfseries Brief Description} -\/ Accessor \end{DoxyCompactList}\item 
+const string \hyperlink{class_management_a4f35b2aa96601b31e78aaf153300b41d}{Get\-Assistant\-Coach} (void)
+\begin{DoxyCompactList}\small\item\em {\bfseries Brief Description} -\/ Accessor \end{DoxyCompactList}\item 
+bool \hyperlink{class_management_af1e575b19ed269369eeef2de5719dec8}{Set\-Team\-Name} (string new\-Team\-Name)
+\begin{DoxyCompactList}\small\item\em {\bfseries Brief Description} -\/ Mutator \end{DoxyCompactList}\item 
+bool \hyperlink{class_management_a678515f513782f5516ac5b1c653a2456}{Set\-Head\-Coach} (string new\-Head\-Coach)
+\begin{DoxyCompactList}\small\item\em {\bfseries Brief Description} -\/ Mutator \end{DoxyCompactList}\item 
+bool \hyperlink{class_management_a5d4d5d0bc503032c9c26ce15c62bbec8}{Set\-Assistant\-Coach} (string new\-Assistant\-Coach)
+\begin{DoxyCompactList}\small\item\em {\bfseries Brief Description} -\/ Mutator \end{DoxyCompactList}\item 
+bool \hyperlink{class_management_a4679efc7274b90fa967dc1349d247093}{Check\-Characters\-Of\-String} (string my\-String)
+\begin{DoxyCompactList}\small\item\em {\bfseries Brief Description} -\/ Validator Function \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{class_management_a78344be52d9cb5025226b4939e562901}{team\-Name}
+\item 
+string \hyperlink{class_management_aaec7a4d4d85085cc58237f23b29648bc}{head\-Coach}
+\item 
+string \hyperlink{class_management_a0255211caa5f03eaf86491d069e36921}{assistant\-Coach}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+{\bfseries Brief Description} -\/ Class representing the management/staff of a soccer team 
+
+This class replicates the management and staff of a soccer team. It contains the name of the head coach, assistant coach, and what the name of the soccer team is. It also contains a function that is used to verify all names of players/coaches on the team, and checks if the string contains characters that are not supposed to be a part of the person's name.
+
+
+\begin{DoxyItemize}
+\item class constants\-:
+\begin{DoxyItemize}
+\item T\-E\-A\-M\-N\-A\-M\-E\-A\-T\-T\-R\-I\-B\-U\-T\-E\-N\-U\-M indicates a change to the team name is wanted
+\item H\-E\-A\-D\-C\-O\-A\-C\-H\-A\-T\-T\-R\-I\-B\-U\-T\-E\-N\-U\-M indicates a change to the head coach name is wanted
+\item A\-S\-S\-I\-S\-T\-A\-N\-T\-C\-O\-A\-C\-H\-A\-T\-T\-R\-I\-B\-U\-T\-E\-N\-U\-M indicates a change to the assitant coach name is wanted
+\item S\-T\-A\-R\-T\-E\-R\-A\-T\-R\-R\-I\-B\-U\-T\-E\-N\-U\-M indicates a change to the starters is wanted
+\item B\-A\-C\-K\-U\-P\-A\-T\-R\-R\-I\-B\-U\-T\-E\-N\-U\-M indicates a change to the backups is wanted
+\item A\-L\-L\-A\-T\-T\-R\-I\-B\-U\-T\-E\-S indicates a change to the team name is wanted
+\item A\-R\-R\-A\-Y\-S\-I\-Z\-E is the max array size
+\item M\-A\-X\-S\-T\-A\-R\-T\-E\-R\-S max amount of starters allowed (11)
+\item M\-A\-X\-B\-A\-C\-K\-U\-P\-S max amount of backups allowed (5)
+\item M\-A\-X\-L\-E\-N\-G\-T\-H max length of user input (255 characters)
+\item B\-U\-F\-F\-E\-R\-S\-I\-Z\-E max length of a buffer (1000 characters)
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+
+\begin{DoxyItemize}
+\item class data members (attributes)\-:
+\begin{DoxyItemize}
+\item string team\-Name; contains the name of the team
+\item string head\-Coach; contains the name of the head coach
+\item string assistant\-Coach; contains the name of the assistant coach
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+\begin{DoxyAuthor}{Author}
+{\itshape Mike Sadowski} 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_management_a257178d02f42de0901c3841449ff8bb1}{\index{Management@{Management}!Management@{Management}}
+\index{Management@{Management}!Management@{Management}}
+\subsubsection[{Management}]{\setlength{\rightskip}{0pt plus 5cm}Management\-::\-Management (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_management_a257178d02f42de0901c3841449ff8bb1}
+
+
+{\bfseries Brief Description} -\/ Constructor 
+
+Constructor for the \hyperlink{class_management}{Management} class. Initializes the team\-Name, head\-Coach, assistant\-Coach strings to equal \char`\"{}\-N\-O\-T\-S\-E\-T\char`\"{}
+
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+\hypertarget{class_management_a5e386c7700d6dcc0c1728be3a551b918}{\index{Management@{Management}!$\sim$\-Management@{$\sim$\-Management}}
+\index{$\sim$\-Management@{$\sim$\-Management}!Management@{Management}}
+\subsubsection[{$\sim$\-Management}]{\setlength{\rightskip}{0pt plus 5cm}Management\-::$\sim$\-Management (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_management_a5e386c7700d6dcc0c1728be3a551b918}
+
+
+{\bfseries Brief Description} -\/ Destructor 
+
+This is the destructor for the \hyperlink{class_management}{Management} class
+
+\begin{DoxyReturn}{Returns}
+nothing 
+\end{DoxyReturn}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_management_a4679efc7274b90fa967dc1349d247093}{\index{Management@{Management}!Check\-Characters\-Of\-String@{Check\-Characters\-Of\-String}}
+\index{Check\-Characters\-Of\-String@{Check\-Characters\-Of\-String}!Management@{Management}}
+\subsubsection[{Check\-Characters\-Of\-String}]{\setlength{\rightskip}{0pt plus 5cm}bool Management\-::\-Check\-Characters\-Of\-String (
+\begin{DoxyParamCaption}
+\item[{string}]{my\-String}
+\end{DoxyParamCaption}
+)}}\label{class_management_a4679efc7274b90fa967dc1349d247093}
+
+
+{\bfseries Brief Description} -\/ Validator Function 
+
+This function iterates through an array of available characters, and determines if a string passed in contains a character that is not allowed.
+
+\begin{DoxyReturn}{Returns}
+True/\-False if string passed the test 
+\end{DoxyReturn}
+\hypertarget{class_management_a4f35b2aa96601b31e78aaf153300b41d}{\index{Management@{Management}!Get\-Assistant\-Coach@{Get\-Assistant\-Coach}}
+\index{Get\-Assistant\-Coach@{Get\-Assistant\-Coach}!Management@{Management}}
+\subsubsection[{Get\-Assistant\-Coach}]{\setlength{\rightskip}{0pt plus 5cm}const string Management\-::\-Get\-Assistant\-Coach (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_management_a4f35b2aa96601b31e78aaf153300b41d}
+
+
+{\bfseries Brief Description} -\/ Accessor 
+
+This is the Accessor for the \hyperlink{class_management}{Management} class's variable\-: assistant\-Coach
+
+\begin{DoxyReturn}{Returns}
+assistant\-Coach (string) 
+\end{DoxyReturn}
+\hypertarget{class_management_a6c6b73df06dc1c04f24d1c5acf94cad4}{\index{Management@{Management}!Get\-Head\-Coach@{Get\-Head\-Coach}}
+\index{Get\-Head\-Coach@{Get\-Head\-Coach}!Management@{Management}}
+\subsubsection[{Get\-Head\-Coach}]{\setlength{\rightskip}{0pt plus 5cm}const string Management\-::\-Get\-Head\-Coach (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_management_a6c6b73df06dc1c04f24d1c5acf94cad4}
+
+
+{\bfseries Brief Description} -\/ Accessor 
+
+This is the Accessor for the \hyperlink{class_management}{Management} class's variable\-: head\-Coach
+
+\begin{DoxyReturn}{Returns}
+head\-Coach (string) 
+\end{DoxyReturn}
+\hypertarget{class_management_ad2d09a9d74ff2e5fbea54efcd76577a0}{\index{Management@{Management}!Get\-Team\-Name@{Get\-Team\-Name}}
+\index{Get\-Team\-Name@{Get\-Team\-Name}!Management@{Management}}
+\subsubsection[{Get\-Team\-Name}]{\setlength{\rightskip}{0pt plus 5cm}const string Management\-::\-Get\-Team\-Name (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{class_management_ad2d09a9d74ff2e5fbea54efcd76577a0}
+
+
+{\bfseries Brief Description} -\/ Accessor 
+
+This is the Accessor for the \hyperlink{class_management}{Management} class's variable\-: team\-Name
+
+\begin{DoxyReturn}{Returns}
+team\-Name (string) 
+\end{DoxyReturn}
+\hypertarget{class_management_a5d4d5d0bc503032c9c26ce15c62bbec8}{\index{Management@{Management}!Set\-Assistant\-Coach@{Set\-Assistant\-Coach}}
+\index{Set\-Assistant\-Coach@{Set\-Assistant\-Coach}!Management@{Management}}
+\subsubsection[{Set\-Assistant\-Coach}]{\setlength{\rightskip}{0pt plus 5cm}bool Management\-::\-Set\-Assistant\-Coach (
+\begin{DoxyParamCaption}
+\item[{string}]{new\-Assistant\-Coach}
+\end{DoxyParamCaption}
+)}}\label{class_management_a5d4d5d0bc503032c9c26ce15c62bbec8}
+
+
+{\bfseries Brief Description} -\/ Mutator 
+
+This is the Mutator for the \hyperlink{class_management}{Management} class's variable\-: assistant\-Coach It also validates all incoming data.
+
+\begin{DoxyReturn}{Returns}
+True/\-False if member was set or not 
+\end{DoxyReturn}
+\hypertarget{class_management_a678515f513782f5516ac5b1c653a2456}{\index{Management@{Management}!Set\-Head\-Coach@{Set\-Head\-Coach}}
+\index{Set\-Head\-Coach@{Set\-Head\-Coach}!Management@{Management}}
+\subsubsection[{Set\-Head\-Coach}]{\setlength{\rightskip}{0pt plus 5cm}bool Management\-::\-Set\-Head\-Coach (
+\begin{DoxyParamCaption}
+\item[{string}]{new\-Head\-Coach}
+\end{DoxyParamCaption}
+)}}\label{class_management_a678515f513782f5516ac5b1c653a2456}
+
+
+{\bfseries Brief Description} -\/ Mutator 
+
+This is the Mutator for the \hyperlink{class_management}{Management} class's variable\-: head\-Coach It also validates all incoming data.
+
+\begin{DoxyReturn}{Returns}
+True/\-False if member was set or not 
+\end{DoxyReturn}
+\hypertarget{class_management_af1e575b19ed269369eeef2de5719dec8}{\index{Management@{Management}!Set\-Team\-Name@{Set\-Team\-Name}}
+\index{Set\-Team\-Name@{Set\-Team\-Name}!Management@{Management}}
+\subsubsection[{Set\-Team\-Name}]{\setlength{\rightskip}{0pt plus 5cm}bool Management\-::\-Set\-Team\-Name (
+\begin{DoxyParamCaption}
+\item[{string}]{new\-Team\-Name}
+\end{DoxyParamCaption}
+)}}\label{class_management_af1e575b19ed269369eeef2de5719dec8}
+
+
+{\bfseries Brief Description} -\/ Mutator 
+
+This is the Mutator for the \hyperlink{class_management}{Management} class's variable\-: team\-Name It also validates all incoming data.
+
+\begin{DoxyReturn}{Returns}
+True/\-False if member was set or not 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_management_a0255211caa5f03eaf86491d069e36921}{\index{Management@{Management}!assistant\-Coach@{assistant\-Coach}}
+\index{assistant\-Coach@{assistant\-Coach}!Management@{Management}}
+\subsubsection[{assistant\-Coach}]{\setlength{\rightskip}{0pt plus 5cm}string Management\-::assistant\-Coach\hspace{0.3cm}{\ttfamily [private]}}}\label{class_management_a0255211caa5f03eaf86491d069e36921}
+\hypertarget{class_management_aaec7a4d4d85085cc58237f23b29648bc}{\index{Management@{Management}!head\-Coach@{head\-Coach}}
+\index{head\-Coach@{head\-Coach}!Management@{Management}}
+\subsubsection[{head\-Coach}]{\setlength{\rightskip}{0pt plus 5cm}string Management\-::head\-Coach\hspace{0.3cm}{\ttfamily [private]}}}\label{class_management_aaec7a4d4d85085cc58237f23b29648bc}
+\hypertarget{class_management_a78344be52d9cb5025226b4939e562901}{\index{Management@{Management}!team\-Name@{team\-Name}}
+\index{team\-Name@{team\-Name}!Management@{Management}}
+\subsubsection[{team\-Name}]{\setlength{\rightskip}{0pt plus 5cm}string Management\-::team\-Name\hspace{0.3cm}{\ttfamily [private]}}}\label{class_management_a78344be52d9cb5025226b4939e562901}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_management_8h}{Management.\-h}\item 
+\hyperlink{_management_8cpp}{Management.\-cpp}\end{DoxyCompactItemize}
