@@ -1,0 +1,27 @@
+﻿Build started 5/26/2013 1:04:22 AM.
+Project "C:\Documents and Settings\Administrator\Desktop\dsaadoopfinal\dsaadoopfinal\dsaadoopfinal.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Touching "Debug\dsaadoopfinal.unsuccessfulbuild".
+ClCompile:
+  All outputs are up-to-date.
+ManifestResourceCompile:
+  All outputs are up-to-date.
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\Administrator\Desktop\dsaadoopfinal\Debug\dsaadoopfinal.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\dsaadoopfinal.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\Administrator\Desktop\dsaadoopfinal\Debug\dsaadoopfinal.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\Administrator\Desktop\dsaadoopfinal\Debug\dsaadoopfinal.lib" /MACHINE:X86 Debug\dsaadoopfinal.exe.embed.manifest.res
+  Debug\project.obj
+  Debug\team.obj
+  Debug\Management.obj
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\dsaadoopfinal.exe.embed.manifest" /manifest Debug\dsaadoopfinal.exe.intermediate.manifest
+  All outputs are up-to-date.
+LinkEmbedManifest:
+  All outputs are up-to-date.
+  dsaadoopfinal.vcxproj -> C:\Documents and Settings\Administrator\Desktop\dsaadoopfinal\Debug\dsaadoopfinal.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\dsaadoopfinal.unsuccessfulbuild".
+  Touching "Debug\dsaadoopfinal.lastbuildstate".
+Done Building Project "C:\Documents and Settings\Administrator\Desktop\dsaadoopfinal\dsaadoopfinal\dsaadoopfinal.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.74

@@ -1,0 +1,94 @@
+\hypertarget{index_intro}{}\section{System Introduction}\label{index_intro}
+
+\begin{DoxyItemize}
+\item This system keeps track of soccer teams, and their current players.
+\item There are players marked as Starters and Backups to indicate what type of player they are.
+\item User is able to add a team, give it a name, and then add players to that team.
+\item On the main menu of the program the user will be able to add a team, delete a team, display a team, or edit a team (add/remove players). The option to print a team that the user can search for is available.
+\item An option to add x amount of teams is also available, and the user is able to edit the teams they add later.
+\item They are also able save all the teams in the database to a single text file as well.
+\item Once saved, the user will be able to load their entire database back a second time they use the program.
+\item They will also be able to delete the entire current database while in the program, as well as print it.
+\end{DoxyItemize}
+
+
+
+ \hypertarget{index_notes}{}\section{Special Release Notes}\label{index_notes}
+
+\begin{DoxyItemize}
+\item Version 1.\-0\-:
+\begin{DoxyItemize}
+\item Save database, Load database, Delete database, Delete team, view team, add arbitrary amout of teams, create team, edit team, exit with/without saving, help menu are now A\-V\-A\-I\-L\-A\-B\-L\-E
+\end{DoxyItemize}
+\end{DoxyItemize}
+
+
+
+ \hypertarget{index_sampleTextFile}{}\section{Configuration File}\label{index_sampleTextFile}
+soccer\-D\-B\-A\-S\-E.\-txt\-:
+\begin{DoxyItemize}
+\item T\-E\-A\-M N\-A\-M\-E$\ast$\-H\-E\-A\-D C\-O\-A\-C\-H$\ast$\-A\-S\-S\-I\-S\-T\-A\-N\-T C\-O\-A\-C\-H$\ast$\-S\-T\-A\-R\-T\-E\-R 1$\ast$\-S\-T\-A\-R\-T\-E\-R 2$\ast$\-S\-T\-A\-R\-T\-E\-R 3$\ast$\-S\-T\-A\-R\-T\-E\-R 4$\ast$\-S\-T\-A\-R\-T\-E\-R 5$\ast$\-S\-T\-A\-R\-T\-E\-R 6$\ast$\-S\-T\-A\-R\-T\-E\-R 7$\ast$\-S\-T\-A\-R\-T\-E\-R 8$\ast$\-S\-T\-A\-R\-T\-E\-R 9$\ast$\-S\-T\-A\-R\-T\-E\-R 10$\ast$\-S\-T\-A\-R\-T\-E\-R 11$\ast$\-B\-A\-C\-K\-U\-P 1$\ast$\-B\-A\-C\-K\-U\-P 2$\ast$\-B\-A\-C\-K\-U\-P 3$\ast$\-B\-A\-C\-K\-U\-P 4$\ast$\-B\-A\-C\-K\-U\-P 5$\ast$
+\end{DoxyItemize}
+
+
+
+ \hypertarget{index_requirements}{}\section{Project Requirements}\label{index_requirements}
+
+\begin{DoxyItemize}
+\item add item
+\item delete item
+\item delete entire database
+\item find and display item in a formatted and readable fashion
+\item display entire database in a formatted and readable fashion
+\item load database from file
+\item save database to file
+\item add an arbitrary number of random items to the database
+\item exit with saving database changes
+\item exit without saving database changes
+\item two non trivial classes
+\item three unit testing modules 
+
+ 
+\end{DoxyItemize}\hypertarget{index_futureIdeas}{}\section{Future Release Features and Ideas}\label{index_futureIdeas}
+
+\begin{DoxyItemize}
+\item The plan was to move all of the functions that have to do with the U\-I menu out of \hyperlink{project_8cpp}{project.\-cpp}, and into the classes, but I ran out of time to do it. This would have made the classes much less trivial. Also not having these functions in the classes made it not possible to unit test them (without just copying them into the unit test file), except for the ones that I have unit tested already in the classes (which is why 1 unit test module is missing, no functions to test!).
+\end{DoxyItemize}
+
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000001}{Todo}]Move functions into classes 
+
+Create test module \#3\end{DoxyRefDesc}
+
+
+
+
+ \hypertarget{index_bugs}{}\section{B\-U\-G\-S}\label{index_bugs}
+
+\begin{DoxyItemize}
+\item Selecting Edit \hyperlink{class_team}{Team}, and entering a letter causes program to hang.
+\item when printing the help menu, after it's printed the menu is re printed, except the title is tabbed over
+\end{DoxyItemize}
+
+
+
+ \hypertarget{index_version}{}\section{Current version of the Soccer Tracker Project\-:}\label{index_version}
+
+\begin{DoxyItemize}
+\item \begin{DoxyAuthor}{Authors}
+{\bfseries {\itshape Mike Sadowski}} 
+\end{DoxyAuthor}
+
+\item \begin{DoxyVersion}{Version}
+1.\-00.\-00 
+\end{DoxyVersion}
+
+\item \begin{DoxyDate}{Date}
+April 17th, 2013 
+\end{DoxyDate}
+
+\item \begin{DoxyCopyright}{Copyright}
+Soccer Tracker Project \hyperlink{class_team}{Team} 
+\end{DoxyCopyright}
+
+\end{DoxyItemize}

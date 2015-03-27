@@ -1,0 +1,12 @@
+ Ronaldino        999999  34   Statistics            Businesscommerce
+ Makgalanejafta   888888  24   Softwarereliability   Softwareengineering
+ Thuthukani       111111  64   Modelchecking         Automatavalidation
+ Globisadlodlo    909090  17   Htmlprogramming       Computerprogramming
+ Mampanelinda     333333  56   Datacommunications    Computernetworks
+ Patricklutendo   777777  64   Realtimesystems       Softwareengineering
+ Chivalry         555555  43   Cprogramming          Computerprogramming
+ Sipokaziunathi   666666  18   Biochemistry          Chemistry
+ Balisibali       101012  41   Skillswritting        Languages
+ Kulatera         444444  49   Projectmanagement     Softwareengineering
+ Maswanganyitk    454545  36   JavaProgramming       Computerprogramming
+ Arosizingi       595959  15   Mathematics           Sciences
