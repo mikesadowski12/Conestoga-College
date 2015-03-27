@@ -1,0 +1,10 @@
+Server:
+-Find server2 in the tar file provided
+-open up a terminal, and type ./server2 [textfilename.txt] [timelimit] into terminal
+-wait for a connection from a client...
+
+Client:
+-find Client in tar file provided
+-open up a terminal, and type ./Client [ipofserver]
+-enter name
+-start playing the game
